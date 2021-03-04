@@ -16,9 +16,9 @@ running a single `make` command in the root of this repository.
 You can download a copy of all the files in this repository by cloning the
 [git](https://git-scm.com/) repository:
 
-    git clone https://github.com/pinga-lab/PAPER-REPO.git
+    git clone https://github.com/navishwadhwa/reproducible-manuscript-template.git
 
-or [download a zip archive](https://github.com/pinga-lab/PAPER-REPO/archive/master.zip).
+or [download a zip archive](https://github.com/navishwadhwa/reproducible-manuscript-template/archive/main.zip).
 
 ## Requirements
 
