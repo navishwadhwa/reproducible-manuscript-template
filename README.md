@@ -82,7 +82,7 @@ individually.
 
 ## Credit
 
-This template is gratefully adapted from one developed by [pinga-lab](https://github.com/pinga-lab/paper-template). To make it easier for an uninitiated user, I removed the build and testing features. Writing is done primarily in markdown, limiting the use of LaTex to the appearance, author list, and abstract. Markdown is a simpler format to write in, which should make this template more accessible.
+This template is gratefully adapted from one developed by [pinga-lab](https://github.com/pinga-lab/paper-template). To make it easier for an uninitiated user, I removed the build and testing features. However, to ensure reproducibility, it is _strongly recommended_ to include testing of your software in the repo. Writing is done primarily in markdown, limiting the use of LaTex to the appearance, author list, and abstract. Markdown is a simpler format to write in, which should make this template more accessible.
 
 ## License
 
