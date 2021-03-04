@@ -1,8 +1,6 @@
 # A template for reproducible papers
 
-This template is a self-contained manuscript reproduction pipeline. It allows you to compile a whole manuscript with a single command. The directory structure takes care of organizing the material, so you can focus on the content instead. The auto-generation of the manuscript ensures reproducibility and promotes open sharing of your work.
-
-This template is gratefully adapted from one developed by [pinga-lab](https://github.com/pinga-lab/paper-template). To make it easier for an uninitiated user, I removed the build and testing features. Writing is done primarily in markdown, limiting the use of LaTex to the appearance, author list, and abstract. Markdown is a simpler format to write in, which should make this template more accessible. 
+This template is a self-contained manuscript reproduction pipeline. It allows you to compile a whole manuscript with a single command. The directory structure takes care of organizing the material, so you can focus on the content instead. The auto-generation of the manuscript ensures reproducibility and promotes open sharing of your work. 
 
 This template is for papers that use Python code and Jupyter notebooks to
 generate their results, though it can be adapted to other platforms.
@@ -81,6 +79,10 @@ instructions.
 
 You can also run any of the files and notebooks
 individually.
+
+## Credit
+
+This template is gratefully adapted from one developed by [pinga-lab](https://github.com/pinga-lab/paper-template). To make it easier for an uninitiated user, I removed the build and testing features. Writing is done primarily in markdown, limiting the use of LaTex to the appearance, author list, and abstract. Markdown is a simpler format to write in, which should make this template more accessible.
 
 ## License
 
