@@ -22,7 +22,7 @@ or [download a zip archive](https://github.com/navishwadhwa/reproducible-manuscr
 
 ## Requirements
 
-This package is testes on Windows using Cygwin, but should work on Mac and Linux as well.
+This package is tested on Windows using Cygwin, but should work on Mac and Linux as well. You may need to add your `conda` installation directory to the system's `PATH` variable to access yout anaconda installation from Cygwin.
 
 **Python**: You'll need a working Python environment to run the code.
 The recommended way to set up your environment is through the
