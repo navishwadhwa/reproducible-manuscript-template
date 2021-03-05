@@ -18,6 +18,11 @@ organization:
  - id: 3
    name: Sunshine College
    address: Eureka, Mississippi, USA
+keywords: sciecne, math, art
+short_title: Writing in markdown
+acknowledgements: This work was supported by the generosity of the open-source community.
+competing_interests: The authors declare no competing financial interests.
+date: March 5, 2021
 bibliography: bibliography.bib
 csl: apa.csl
 link-citations: true
@@ -39,6 +44,7 @@ mainfontoptions:
 - Ligatures=TeX
 ...
 
+\newpage
 # Abstract
 This is an example article.  There is not much to see but filler text.
 
