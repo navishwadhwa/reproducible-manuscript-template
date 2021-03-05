@@ -4,7 +4,8 @@
 #
 # Commands:
 #
-#	make            Compile PDF in the output folder
+#	make            Compile DEFAULT_EXTENSIONS files in the output folder
+#	make all        Compile all files in the output folder
 #	make show       Show the generated PDF
 #	make clean      Delete all generated files except DEFAULT_EXTENSIONS
 # 	make cleanall	Delete all files
@@ -43,8 +44,7 @@ endif
 ###############################################################################
 
 # Main target. Executed when calling 'make' with no arguments
-all:
-   include $(PANDOC_SCHOLAR_PATH)/Makefile
+include $(PANDOC_SCHOLAR_PATH)/Makefile
 
 # Open the PDF
 show:
