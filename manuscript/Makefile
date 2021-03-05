@@ -47,6 +47,6 @@ all:
    include $(PANDOC_SCHOLAR_PATH)/Makefile
 
 # Open the PDF
-show: $(OUTPUT)
+show:
 	@ # Redirect stdout and stderr to /dev/null for silent execution
-	@ (${PDFVIEWER} $(OUTPUT) > /dev/null 2>&1 & )
+	@ (${PDFVIEWER} $(OUT_DIR)/$(OUTFILE_PREFIX).pdf > /dev/null 2>&1 & )
