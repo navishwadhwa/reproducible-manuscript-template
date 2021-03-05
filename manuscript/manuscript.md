@@ -1,32 +1,23 @@
 ---
 title: Example manuscript written in Markdown
 author:
-  - Woodruff Grin :
-      institute:
-        - eu
-        - sc
-      email: grin.woodruff@eureka.edu
-      orcid: 0000-0000-0000-0000
-      equal_contributor: "yes"
-      correspondence: "yes"
-  - Mad Hat Ryman:
-      institute: eu
-      equal_contributor: "yes"
-  - Dorfyndar Fennorin:
-      institute: eu
-  - Alylaya Venralei:
-      institute: alp
-      email: alylaya.venralei@alpine.com
-      correspondence: "yes"
-institute:
-  - eu:
-      name: Eureka University
-      address: 23 Southwood View, Eureka, Mississippi, USA
-      phone: +1 (123) 456 7890
-      email: '{first}.{last}\@eureka.edu'
-  - sc: Sunshine College
-  - alp:
-      name: Alpine Technologies
+ - name: Woodruff Grin
+   affiliation: 1,2,3
+ - name: Mad Hat Ryman
+   affiliation: 1,2
+ - name: Dorfyndar Fennorin
+   affiliation: 1,2
+   email: fennorin@eureka.edu
+organization:
+ - id: 1
+   name: Eureka University
+   address: Eureka, Mississippi, USA
+ - id: 2
+   name: Alpine Technologies
+   address: Eureka, Mississippi, USA
+ - id: 3
+   name: Sunshine College
+   address: Eureka, Mississippi, USA
 bibliography: bibliography.bib
 csl: apa.csl
 link-citations: true
@@ -49,9 +40,7 @@ mainfontoptions:
 ...
 
 # Abstract
-
 This is an example article.  There is not much to see but filler text.
-
 
 # Introduction
 See the [pandoc manual](http://pandoc.org/MANUAL.html) for more information on
