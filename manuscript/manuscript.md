@@ -1,39 +1,39 @@
 ---
-title: Example article written in pandoc-flavored Markdown
+title: Example manuscript written in Markdown
 author:
-  - Jane Doe:
+  - Woodruff Grin :
       institute:
-        - fosg
-        - fop
-      email: jane.doe@example.com
+        - eu
+        - sc
+      email: grin.woodruff@eureka.edu
       orcid: 0000-0000-0000-0000
       equal_contributor: "yes"
       correspondence: "yes"
-  - John Q. Doe:
-      institute: fosg
+  - Mad Hat Ryman:
+      institute: eu
       equal_contributor: "yes"
-  - Peder Ås:
-      institute: fosg
-  - Juan Pérez:
-      institute: acme
-      email: juan.perez@example.edu
+  - Dorfyndar Fennorin:
+      institute: eu
+  - Alylaya Venralei:
+      institute: alp
+      email: alylaya.venralei@alpine.com
       correspondence: "yes"
 institute:
-  - fosg:
-      name: Formatting Open Science Group
-      address: 23 Science Street, Eureka, Mississippi, USA
-      phone: +1 (555) 423 1338
-      email: '{firstname}.{lastname}\@fosg.example.com'
-  - fop: Federation of Planets
-  - acme:
-      name: Acme Corporation
+  - eu:
+      name: Eureka University
+      address: 23 Southwood View, Eureka, Mississippi, USA
+      phone: +1 (123) 456 7890
+      email: '{first}.{last}\@eureka.edu'
+  - sc: Sunshine College
+  - alp:
+      name: Alpine Technologies
 bibliography: bibliography.bib
 csl: apa.csl
 link-citations: true
 project:
-  title: Pandoc Scholar Example
-  zip-url: https://github.com/pandoc-scholar/pandoc-scholar/releases
-  github-url: https://github.com/pandoc-scholar/pandoc-scholar/
+  title: Reproducible manuscript example
+  zip-url: https://github.com/navishwadhwa/reproducible-manuscript-template/archive/main.zip
+  github-url: https://github.com/navishwadhwa/reproducible-manuscript-template/
 figureTemplate: $$t$$
 geometry: margin=1.1in
 linestretch: 1.15
