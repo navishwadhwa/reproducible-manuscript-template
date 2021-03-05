@@ -330,7 +330,7 @@ $endfor$
 \makeatletter
 \def\@maketitle{%
   \newpage \null \vskip 2em
-  \begin {center}%
+  \begin {flushleft}%
     \let \footnote \thanks
          {\LARGE \@title \par}%
          \vskip 1.5em%
@@ -345,11 +345,11 @@ $endfor$
                 $if(has_correspondence)$
                 \vskip 0.2em{\textsuperscript{*}\,Correspondence:
                   $for(author)$$if(author.correspondence)$$if(author.email)$
-                  $author.name$ <$author.email$>\\
+                  $author.name$ <$author.email$>;
                   $endif$$endif$$endfor$}%
                 %$endif$
                 \vskip 1em{\large \@date}%
-  \end {center}%
+  \end {flushleft}%
   \par
   \vskip 1.5em}
 \makeatother
@@ -360,11 +360,15 @@ $if(has-frontmatter)$
 $endif$
 $if(title)$
 \maketitle
-$if(abstract)$
-\begin{abstract}
-$abstract$
-\end{abstract}
-$endif$
+
+%%% Remove latex standard abstract 
+% $if(abstract)$
+% \begin{abstract}
+% $abstract$
+% \end{abstract}
+% $endif$
+%%%%
+
 $endif$
 
 $for(include-before)$
