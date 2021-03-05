@@ -11,7 +11,7 @@ DEFAULT_EXTENSIONS    ?= tex pdf
 ADDITIONAL_EXTENSIONS ?=  docx odt epub html xml jats jsonld txt
 
 # make sure to have local versions of the templates
-TEMPLATE_FILE_LATEX   ?= templates/pandoc-scholar.latex
+TEMPLATE_FILE_LATEX   ?= templates/pandoc-scholar.tex
 # TEMPLATE_FILE_HTML    ?= templates/pandoc-scholar.html
 # TEMPLATE_STYLE_HTML   ?= templates/styles/pandoc-scholar.css
 
