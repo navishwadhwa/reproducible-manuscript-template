@@ -63,9 +63,9 @@ Cite literature using @tikhonov1977. The keys correspond to your bib file.
 
 ## Figures
 
-Figures can be includes using the standard markdown format. Here is an example.
+Figures can be includes using the standard markdown format. Here is an example. Here is how you cross-ref a figure ([Fig @fig:mars]). You can also refer to [Fig @fig:trees].
 
-![Insert figure caption here.](figures/mars.jpg)
+![Insert figure caption here.](figures/mars.jpg){#fig:mars}
 
 ## More methods 
 
@@ -76,7 +76,7 @@ Maecenas vestibulum tempus tellus, eu accumsan justo vulputate quis. Suspendisse
 ## Result 1
 Proin placerat cursus nisi nec commodo. Nunc ornare mollis nulla nec varius. Vestibulum dapibus lacus erat, eget mattis tortor hendrerit ut. Aliquam rhoncus tempus dapibus. Sed in purus nulla. Curabitur at metus purus. Donec commodo quis est ac molestie. Quisque id elementum ante. Fusce suscipit massa quis orci scelerisque aliquam. Proin mattis eget nibh in lobortis. Integer ut mollis odio, nec posuere leo. Nullam purus mi, hendrerit at nulla id, lobortis vulputate quam.
 
-![Tree heights for the different trees, and mean tree height.](figures/tree-heights.eps)
+![Tree heights for the different trees, and mean tree height.](figures/tree-heights.eps){#fig:trees}
 
 ## Result 2
 Duis ex sem, vulputate eget interdum et, interdum a nisl. Sed non egestas augue. Pellentesque auctor velit at viverra tempus. Aliquam vel orci ullamcorper, molestie leo a, mollis erat. Quisque rutrum sapien eu volutpat commodo. Cras augue dolor, lacinia auctor viverra ut, bibendum venenatis purus. Donec quis eros ac nunc auctor varius. Phasellus laoreet scelerisque odio id mollis. Proin ornare quam ut metus rutrum tincidunt. Praesent congue sagittis consectetur. Proin sapien nulla, lacinia nec scelerisque eget, interdum vel enim. Aliquam erat volutpat. Sed varius dictum orci.
