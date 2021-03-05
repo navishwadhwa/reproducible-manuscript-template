@@ -34,6 +34,18 @@ project:
   title: Pandoc Scholar Example
   zip-url: https://github.com/pandoc-scholar/pandoc-scholar/releases
   github-url: https://github.com/pandoc-scholar/pandoc-scholar/
+figureTemplate: $$t$$
+geometry: margin=1.1in
+linestretch: 1.15
+fontsize: 11pt
+papersize: letter
+classoption:
+- twocolumn
+mainfont: Helvetica
+mainfontoptions:
+- BoldFont=*-Bold
+- UprightFont=*
+- Ligatures=TeX
 ...
 
 # Abstract
