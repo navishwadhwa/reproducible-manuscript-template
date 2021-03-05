@@ -275,6 +275,15 @@ $if(csl-refs)$
   \fi
  }%
  {}
+
+%%%%%%%
+% Reducing spacing before and after titles. Not sure if this should be included in yaml
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{0pt}{2ex}{1ex}
+\titlespacing{\subsection}{0pt}{1ex}{0ex}
+\titlespacing{\subsubsection}{0pt}{0.5ex}{0ex}
+%%%%%%%
+
 \usepackage{calc}
 \newcommand{\CSLBlock}[1]{#1\hfill\break}
 \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
