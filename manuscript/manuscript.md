@@ -40,7 +40,7 @@ linestretch: 1.15
 fontsize: 11pt
 papersize: letter
 classoption:
-- twocolumn
+# - twocolumn
 mainfont: Helvetica
 mainfontoptions:
 - BoldFont=*-Bold
@@ -65,11 +65,17 @@ Maecenas vestibulum tempus tellus, eu accumsan justo vulputate quis. Suspendisse
 # Methods
 
 ## Citations
-Cite literature using @tikhonov1977. The keys correspond to your bib file.
+Cite literature using @Upper_writers_1974. The keys correspond to your bib file.
 
 ## Equations
 
-Writing equations in markdown is really simple. You simple enclose latex math syntax with two `$`s on each side to render them into math. For example, $$\delta+y = 9$$. 
+Writing equations in markdown is really simple. You simple enclose math syntax from LaTeX with two `$`s on each side to render them into math. For example, . You can also write equations inline, like $\alpha + y = 9$ or in a separate line, e.g., [@eq:example],
+
+$$
+    E = m c^2, 
+$$ {#eq:example}
+
+where $E$ is energy, $m$ is mass, and $c$ is the speed of light. 
 
 ## Figures
 
@@ -93,91 +99,5 @@ Duis ex sem, vulputate eget interdum et, interdum a nisl. Sed non egestas augue.
 
 # Conclusions
 Donec ac massa eget eros hendrerit sagittis ut eu dolor. Nulla venenatis finibus est, eget elementum odio ornare ac. Vestibulum in enim mi. Phasellus nec pulvinar metus. Aenean et tempus augue, id accumsan ipsum. Duis tempus, velit sit amet accumsan egestas, eros metus aliquam urna, id accumsan ligula ante vel mauris. Cras feugiat leo eget erat tempus accumsan. Nullam ut justo urna. Proin vel diam magna. Cras sed pellentesque orci. Vestibulum scelerisque nulla feugiat purus pretium, id elementum libero tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-
-# Lorem Ipsum
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
-
-
-## Dolor sit amet
-
-Deserunt excepturi commodi sit qui velit quis. Delectus sit omnis culpa
-accusamus repellat iusto vel. Quod deserunt quasi nisi dolor. Quo eum id
-reiciendis dolor. Est qui illum et.
-
-Quo dolore molestiae et laboriosam occaecati explicabo corrupti. Earum expedita
-ducimus quaerat est quam ut molestiae. Illum deleniti vel labore facilis et cum
-est. Est nemo est vel ad. Assumenda consequatur rerum officiis atque officia.
-Est nihil iste cumque ad qui.
-
-Eaque sed sit totam enim. Et explicabo illum rerum aut. Aspernatur sit dolor
-animi tempora cum. Maxime in soluta aut. Explicabo id maiores voluptates aut
-voluptas id. Dolore sed labore voluptatem omnis doloribus mollitia aliquid
-cupiditate.
-
-In rerum saepe placeat. Deleniti suscipit sed quam fugit assumenda sit et
-tempora. Veniam illum expedita quia error qui quibusdam rerum. Qui ut sunt est
-eos.
-
-Recusandae et sit ut. Impedit deserunt consequatur et dignissimos vel et.
-Eveniet voluptatem magni quis est dolore excepturi officia nihil. Debitis quae
-commodi error.
-
-Modi debitis et ut saepe saepe dolorem. Quis sed autem expedita est voluptate
-esse neque. Quod aspernatur quam velit placeat nihil omnis debitis. Corporis sit
-rerum consectetur possimus rerum consequuntur. Rerum quas ut repellendus
-tenetur. Consequuntur adipisci dolores eveniet qui est ipsum.
-
-Atque deserunt necessitatibus unde facere amet molestiae. Ipsam at quia placeat
-aliquam autem. Enim corporis accusamus consequatur.
-
-Et vitae unde perferendis tenetur cupiditate non exercitationem. Aut molestiae
-sed est. Deserunt repudiandae non quia esse ad vitae vel in. Et reprehenderit
-dolore et aut distinctio.
-
-Vel quia molestiae quod sint fuga omnis est fuga. Minus quaerat repellat quod.
-Rerum rerum enim repellendus rerum consequatur non perspiciatis. Illo sapiente
-sed natus ipsa quia temporibus. Est nostrum fugit odio non voluptatem odit
-rerum. Et consequatur aut nostrum accusamus earum.
-
-Sit explicabo iure eligendi consequatur. Consequatur atque praesentium
-consequatur dolores quam. Neque eius provident harum placeat. Quo aut pariatur
-illum laborum porro minima. Dolorem nobis esse laudantium. Perspiciatis
-voluptate deleniti voluptatem et.
-
-Quos assumenda magnam non inventore. Adipisci repellendus eligendi possimus
-voluptate numquam voluptatem natus. Deleniti cupiditate facilis commodi aliquid
-voluptatem laudantium autem similique. Vel sunt cupiditate consequatur. Dolorum
-voluptatem nihil culpa fugiat non itaque animi iusto. Unde incidunt numquam
-vitae.
-
-Eius provident voluptatem animi quidem quia. Velit omnis voluptas atque.
-Voluptatem accusamus atque blanditiis commodi aspernatur ullam ad. Nulla quidem
-fugiat explicabo quo dolor hic.
-
-Rerum dolore quo ratione sed aspernatur doloremque. Ut neque laudantium quae
-enim dolores et. Laudantium dolores id assumenda autem aspernatur. Accusamus
-doloribus nihil rerum et atque est aut delectus.
-
-Nulla itaque mollitia vitae accusamus. Eveniet soluta praesentium dolore harum
-culpa. Totam voluptatem non aspernatur.
-
-Eveniet in illo consequatur. Fugiat et totam unde nihil quis. Non et velit
-recusandae blanditiis unde. Eaque fugiat id pariatur. Non numquam minima aut.
-Iste eos et autem et exercitationem velit officiis vero.
-
-Ullam minima quisquam est ducimus iste. Commodi occaecati inventore provident
-voluptatem repudiandae. Quia est qui dolore sit nisi officia doloremque dolor.
-Perspiciatis tempore laudantium quia repellendus quia deleniti. Sed consequuntur
-autem quisquam aliquam.
-
-Ut dolores natus et sunt delectus nulla. Ipsum eum quia ex est ut quia. Ratione
-et eius consequatur veritatis hic expedita ea.
 
 # References
