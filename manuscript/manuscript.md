@@ -53,15 +53,9 @@ mainfontoptions:
 This is an example article.  There is not much to see but filler text.
 
 
-# Further reading
-
-See the [pandoc manual](http://pandoc.org/MANUAL.html) for more information on
-pandoc.
-
-Authors struggling to fill this document with content are referred to
-@Upper_writers_1974.
-
 # Introduction
+See the [pandoc manual](http://pandoc.org/MANUAL.html) for more information on
+pandoc. Also see [pandoc-scholar](https://github.com/pandoc-scholar/pandoc-scholar) for more information.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu porttitor purus, ac vestibulum lacus. Donec id mattis dolor. Quisque in urna et nibh dignissim pulvinar et eget leo. Integer tellus massa, tincidunt a imperdiet eget, consectetur convallis urna. Nunc laoreet urna quis massa ullamcorper, quis viverra odio consectetur. Nullam sodales sed odio non pretium. Cras purus erat, sagittis ac tempus vel, euismod non leo. Morbi id turpis consequat, laoreet nisl at, iaculis libero. Nullam eget arcu nec lectus accumsan rutrum. Nunc facilisis, leo id efficitur eleifend, urna purus tempor nunc, a malesuada lorem ex vel metus. In ornare imperdiet lorem vitae pretium. Ut sed massa quis metus sagittis dignissim ac quis orci. Aenean nec blandit tellus, ac tincidunt tellus. Sed eleifend, ex eu ultrices mollis, ligula augue pulvinar magna, in tincidunt tortor sem ut augue. Mauris feugiat volutpat elit, at eleifend eros maximus vitae.
 
@@ -72,6 +66,10 @@ Maecenas vestibulum tempus tellus, eu accumsan justo vulputate quis. Suspendisse
 
 ## Citations
 Cite literature using @tikhonov1977. The keys correspond to your bib file.
+
+## Equations
+
+Writing equations in markdown is really simple. You simple enclose latex math syntax with two `$`s on each side to render them into math. For example, $$\delta+y = 9$$. 
 
 ## Figures
 
