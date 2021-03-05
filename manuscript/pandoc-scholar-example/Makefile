@@ -7,7 +7,7 @@ OUTFILE_PREFIX ?= article_out
 
 
 ## Uncomment below to overwrite pandoc-scholar defaults with local version
-DEFAULT_EXTENSIONS    ?= latex pdf 
+DEFAULT_EXTENSIONS    ?= tex pdf 
 ADDITIONAL_EXTENSIONS ?=  docx odt epub html xml jats jsonld txt
 
 # make sure to have local versions of the templates
